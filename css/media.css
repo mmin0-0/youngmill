@@ -1,0 +1,419 @@
+/* desktop */
+@media screen and (max-width: 1024px) {
+  .average-width {
+    width: 90%;
+  }
+
+  .average_mt {
+    margin-top: 60px;
+  }
+
+  .mainTit {
+    margin-bottom: 1.5rem;
+  }
+
+  /*----------------------- header --------------------------*/
+  header {
+    height: 58px;
+  }
+
+  .header-inner {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+  .header-top {
+    display: none;
+  }
+
+  header .logo {
+    width: 130px;
+  }
+
+  header .gnb {
+    display: none;
+  }
+
+  .hamberger-menu {
+    display: block;
+  }
+
+  /*----------------------- main-visual --------------------------*/
+  .main-cont {
+    margin-top: 58px;
+  }
+
+  .main-cont .main-visual {
+    height: auto;
+  }
+
+  /* .main-visual .swiper-slide{line-height: 500px;} */
+  .main-controls {
+    width: 80%;
+    height: 30px;
+    transform: translateX(-50%);
+  }
+
+  .main-visual .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next,
+  .main-visual .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    height: 100%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-button-prev,
+  .swiper-button-next {
+    margin-top: 0 !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    transform: translateY(-50%);
+  }
+
+  /*----------------------- product --------------------------*/
+  .product-inner {
+    height: 30vh;
+  }
+
+  .product-list li {
+    height: auto;
+  }
+
+  .product-preview {
+    height: calc(30vh / 3 - 10px);
+  }
+
+  .product-tit {
+    font-size: 0.8rem;
+  }
+
+  .product-tit .price {
+    margin-top: 0;
+  }
+
+  .product-video {
+    width: calc(60% - 5px);
+  }
+
+  .product-list {
+    width: calc(40% - 5px);
+  }
+
+  /*----------------------- company --------------------------*/
+  .company-tit {
+    font-size: 2rem;
+  }
+
+  .company-header,
+  .company-section {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .company-visual .swiper-slide {
+    height: auto;
+  }
+
+  .company-info {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .company-btns {
+    margin-top: 1.5rem;
+  }
+
+  .company-btns button {
+    padding: 0.5rem 0;
+  }
+
+  .company-visual .swiper-slide .hit-titInner {
+    width: 75%;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  /*----------------------- creasor_mainTit --------------------------*/
+  .creasor-mainTit {
+    padding: 3.5rem 0;
+  }
+
+  .creasor-mainTit-inner span {
+    font-size: 1rem;
+  }
+
+  /*----------------------- reveiw --------------------------*/
+  .review-item {
+    width: calc(100% / 4 - 10px);
+  }
+
+  .review-moreBtn {
+    margin-bottom: 0.5rem;
+  }
+
+  .review-contInner,
+  .review-previewInner {
+    display: block;
+  }
+
+  .review-product {
+    align-items: flex-start;
+  }
+
+  /*----------------------- portfolio --------------------------*/
+  .portfolio .tabs {
+    width: 80%;
+  }
+
+  .product-type {
+    height: auto;
+  }
+
+  .product-typeInfo {
+    letter-spacing: -1px;
+  }
+
+  .product-more {
+    width: 15%;
+  }
+
+  /*----------------------- quick --------------------------*/
+  #slidemenu {
+    width: 5rem;
+    right: 1rem;
+  }
+
+  /*----------------------- form --------------------------*/
+  .form-wrap.active {
+    height: 58vh;
+  }
+
+  .form-gg {
+    width: 90%;
+  }
+  .personalCont-modalCont{width: 40%;}
+  .side-footerInner{padding: 0.5rem 0;}
+  .side-num{margin: 0.5rem 0;}
+}
+
+/* tablet */
+@media screen and (max-width:767px) {}
+
+/* mobile */
+@media screen and (max-width:480px) {
+  .average-width {
+    width: 90%;
+  }
+
+  .average_mt {
+    margin-top: 2rem;
+  }
+
+  .mainTit {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  /*----------------------- product --------------------------*/
+  .product-list::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /*----------------------- commpany --------------------------*/
+  .company-inner {
+    display: block;
+  }
+
+  .company-header,
+  .company-section {
+    width: 100%;
+  }
+
+  .company-info,
+  .company-btns {
+    display: none;
+  }
+
+  .company-tit {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .company-section {
+    margin-top: 1rem;
+  }
+
+  /*----------------------- main-visual --------------------------*/
+  .main-controls {
+    width: 90%;
+    height: 20px;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-visual .swiper-pagination {
+    display: none;
+  }
+
+  /*----------------------- product --------------------------*/
+  .product-video {
+    width: calc(60% - 5px);
+  }
+
+  .product-list {
+    width: calc(40% - 5px);
+  }
+
+  .product-list li {
+    display: block;
+  }
+
+  .product-tit {
+    letter-spacing: -1px;
+  }
+
+  .product-preview,
+  .product-tit {
+    width: 100%;
+  }
+
+  .product-tit,
+  .product-tit>span {
+    font-size: 0.6rem !important;
+  }
+
+  /*----------------------- reveiw --------------------------*/
+  .review-item,
+  .product-cont li {
+    width: calc(100% / 2 - 5px);
+  }
+
+  .review-item:nth-child(n + 3),
+  .product-cont li:nth-child(n + 3) {
+    margin-top: 1rem;
+  }
+
+  .portfolio .tabs {
+    width: 100%;
+  }
+
+  .portfolio .tabs li a {
+    font-size: 0.8rem;
+  }
+
+  .product-typeInfo {
+    padding: 0;
+  }
+
+  .product-cont {
+    flex-wrap: wrap;
+  }
+
+  .typeInfo-tit,
+  .typeInfo-subTit {
+    font-size: 0.8rem;
+    letter-spacing: -1px;
+  }
+
+  .typeInfo-subTit,
+  .product-price {
+    margin-top: 0.2rem;
+  }
+
+  .product-type:hover>img {
+    transform: scale(1);
+  }
+
+  .product-more {
+    width: 20%;
+    font-size: 0.8rem;
+  }
+
+  /*----------------------- membership --------------------------*/
+  .membership-inner {
+    width: 100%;
+  }
+
+  /*----------------------- brand --------------------------*/
+  .brand-list {
+    flex-wrap: wrap;
+  }
+
+  .brand-list li {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .brand-list li:nth-child(n + 3) {
+    margin-top: 1rem;
+  }
+
+  /*----------------------- quick --------------------------*/
+  #slidemenu {
+    display: none;
+  }
+
+  /*----------------------- footer --------------------------*/
+  .footer-inner {
+    display: block;
+  }
+
+  .footer-info {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    /* white-space: pre-wrap; */
+  }
+
+  .footer-menuList li:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .footer-snsList li:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+
+  .footer-infoInner>span {
+    margin-right: 0.5rem;
+  }
+
+  /*----------------------- form --------------------------*/
+  .form-gg {
+    padding: 1rem 0;
+  }
+
+  .form-gg form input {
+    width: calc(100% / 2 - 10px);
+    font-size: 0.6rem;
+  }
+
+  .form-gg form input,
+  .form-gg .memo {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .counseling-btn {
+    width: 10rem;
+    height: 3rem;
+  }
+  .form-wrap.active{height: auto;}
+  .personalCont-modalCont{width: 65%;}
+
+  /*----------------------- sidemenu --------------------------*/
+  .sideMenu-bg {
+    display: none;
+  }
+
+  .sideMenu-inner {
+    width: 100vw;
+  }
+
+  .closed-btn {
+    right: 1.5rem;
+  }
+
+  .member-inner li:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
